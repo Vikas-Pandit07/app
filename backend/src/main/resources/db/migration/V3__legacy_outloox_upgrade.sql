@@ -1,0 +1,2 @@
+-- Legacy migration intentionally left empty.
+-- All required schema already exists in V1 and V2.

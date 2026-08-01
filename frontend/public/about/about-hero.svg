@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700">
+  <rect width="1400" height="700" fill="#111111"/>
+  <circle cx="1120" cy="180" r="180" fill="#7c3aed" opacity="0.26"/>
+  <circle cx="280" cy="560" r="220" fill="#7c3aed" opacity="0.12"/>
+  <rect x="140" y="110" width="1120" height="480" rx="26" fill="#171717" stroke="#2d2d2d"/>
+  <text x="700" y="340" font-family="system-ui, sans-serif" font-size="86" font-weight="800" fill="#ffffff" text-anchor="middle">WE ARE OUTLOOX</text>
+  <text x="700" y="410" font-family="system-ui, sans-serif" font-size="28" font-weight="600" fill="#c4b5fd" text-anchor="middle">Built in India for the bold</text>
+</svg>

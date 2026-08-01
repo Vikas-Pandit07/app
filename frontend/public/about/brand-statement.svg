@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#0f0f10"/>
+  <circle cx="620" cy="220" r="200" fill="#7c3aed" opacity="0.25"/>
+  <rect x="130" y="170" width="540" height="650" rx="24" fill="#171717" stroke="#2d2d2d"/>
+  <text x="400" y="515" font-family="system-ui, sans-serif" font-size="72" font-weight="800" fill="#ffffff" text-anchor="middle">OUTLOOX</text>
+  <text x="400" y="575" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#c4b5fd" text-anchor="middle">Confidence • Ambition • Individuality</text>
+</svg>

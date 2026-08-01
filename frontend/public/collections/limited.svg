@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#121212"/>
+  <circle cx="620" cy="180" r="170" fill="#7c3aed" opacity="0.24"/>
+  <circle cx="210" cy="790" r="200" fill="#7c3aed" opacity="0.10"/>
+  <rect x="120" y="170" width="560" height="520" rx="26" fill="#171717" stroke="#303030"/>
+  <text x="400" y="805" font-family="system-ui, sans-serif" font-size="64" font-weight="800" fill="#ffffff" text-anchor="middle">LIMITED</text>
+  <text x="400" y="860" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#c4b5fd" text-anchor="middle">OUTLOOX Collection</text>
+</svg>

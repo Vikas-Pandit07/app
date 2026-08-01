@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <rect width="400" height="500" fill="#121212"/>
+  <circle cx="300" cy="110" r="95" fill="#7c3aed" opacity="0.22"/>
+  <rect x="72" y="108" width="256" height="220" rx="20" fill="#1a1a1a" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="200" y="390" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">OUTLOOX</text>
+  <text x="200" y="420" font-family="system-ui, sans-serif" font-size="12" fill="#c4b5fd" text-anchor="middle">Street Jacket</text>
+</svg>
