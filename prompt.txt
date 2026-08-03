@@ -216,4 +216,723 @@ Security Engineer
 QA Engineer
 
 Before finishing any feature,
-review it from every role. 
+review it from every role. Below is a senior-level master prompt you can give to Claude Code, Codex, Cursor AI, or any coding agent. It is written as if a Lead Frontend Engineer + UX Designer + Full Stack Architect is reviewing the project.
+
+---
+
+# MASTER PROMPT - OUTLOOX Website Redesign & Production Optimization
+
+You are a **Senior Staff Frontend Engineer, UX Designer, Motion Designer, Shopify Plus Developer and Performance Engineer**.
+
+Your job is **NOT to rewrite the project**.
+
+Instead, **upgrade my existing codebase into a production-ready premium fashion ecommerce website** with minimal, clean and maintainable code.
+
+The project already exists.
+
+Work on top of the existing architecture.
+
+Do not create unnecessary components.
+
+Do not duplicate code.
+
+Refactor wherever required.
+
+Every change should improve maintainability.
+
+Think like a developer working at **Nike, Zara, Aime Leon Dore, COS, Apple, Represent Clothing, Fear of God Essentials, and Shopify.**
+
+The final website should never feel AI generated.
+
+It should feel like a real premium ecommerce brand.
+
+---
+
+# BRAND GOAL
+
+OUTLOOX should look like a fashion brand worth ₹50+ Crores.
+
+Not like a React project.
+
+Not like a Tailwind demo.
+
+Not like a template.
+
+When someone opens the website they should immediately think
+
+"This is a premium clothing brand."
+
+---
+
+# UI DIRECTION
+
+Take inspiration from
+
+[https://www.vengenceui.com/](https://www.vengenceui.com/)
+
+[https://recent.design/websites](https://recent.design/websites)
+
+Apple
+
+Nike
+
+Represent
+
+COS
+
+Zara
+
+Aime Leon Dore
+
+Minimal but luxurious.
+
+No visual clutter.
+
+Strong typography.
+
+Perfect spacing.
+
+Excellent hierarchy.
+
+Modern interactions.
+
+---
+
+# REMOVE
+
+Remove Dark / Light theme completely.
+
+Website should have ONE premium theme only.
+
+No theme toggle.
+
+No unnecessary color switching.
+
+No settings icon.
+
+No useless preferences.
+
+Create one polished visual identity.
+
+---
+
+# DESIGN SYSTEM
+
+Create a consistent design system.
+
+Use
+
+8px spacing system
+
+12px radius
+
+16px radius where required
+
+Proper shadows
+
+Glass effect only where needed
+
+Premium cards
+
+Soft gradients
+
+Better typography scale
+
+Consistent paddings
+
+Proper container width
+
+Responsive grid
+
+Balanced whitespace
+
+Better hover states
+
+Proper loading states
+
+Better empty states
+
+Better skeletons
+
+---
+
+# SEARCH BAR
+
+Current search bar looks outdated.
+
+Redesign it completely.
+
+Requirements
+
+Floating modern search
+
+Beautiful focus animation
+
+Search suggestions
+
+Recent searches
+
+Popular searches
+
+Keyboard shortcut
+
+CTRL + K
+
+Mobile optimized
+
+Animated dropdown
+
+Clear button
+
+Search icon animation
+
+---
+
+# WISHLIST
+
+Current wishlist animation is wrong.
+
+Currently only heart becomes red.
+
+Instead
+
+Entire product card should react.
+
+Requirements
+
+Smooth scale animation
+
+Soft border glow
+
+Premium red outline
+
+Micro interaction
+
+Heart animation
+
+Confetti burst (small)
+
+Saved toast
+
+State persistence
+
+Hover animation
+
+Better icon transition
+
+---
+
+# REMOVE THIS SECTION
+
+Delete completely
+
+py-6 bg-bg-primary border-y border-border-subtle
+
+It provides no UX value.
+
+Replace with something meaningful if necessary.
+
+---
+
+# PRODUCT CARDS
+
+Current cards feel static.
+
+Improve
+
+Hover elevation
+
+Mouse tracking
+
+Image zoom
+
+Secondary image hover
+
+Quick add
+
+Wishlist animation
+
+Quick preview
+
+Variant selector
+
+Color swatches
+
+Inventory badge
+
+New arrival badge
+
+Limited stock badge
+
+Premium shadows
+
+Animated CTA
+
+Better typography
+
+Modern spacing
+
+---
+
+# CART
+
+Current cart feels like 2018.
+
+Redesign completely.
+
+Modern side drawer
+
+Beautiful animations
+
+Sticky checkout
+
+Shipping progress
+
+Free shipping indicator
+
+Recommended products
+
+Coupon section
+
+Gift note
+
+Estimated delivery
+
+Secure checkout icons
+
+Quantity animation
+
+Undo remove
+
+Smooth transitions
+
+Better empty cart
+
+Mini order summary
+
+Responsive mobile experience
+
+---
+
+# CHECKOUT FLOW
+
+Current order flow has errors.
+
+Fix everything.
+
+Review
+
+Cart
+
+Address
+
+Payment
+
+Order
+
+Success page
+
+Inventory updates
+
+Coupon logic
+
+Tax calculation
+
+Shipping calculation
+
+Email flow
+
+Order creation
+
+Database records
+
+Admin updates
+
+Error handling
+
+Validation
+
+No broken state should exist.
+
+---
+
+# ADMIN PANEL
+
+Create a modern production-grade admin panel.
+
+Dashboard
+
+Orders
+
+Customers
+
+Products
+
+Inventory
+
+Coupons
+
+Reviews
+
+Analytics
+
+Sales
+
+Users
+
+Categories
+
+Settings
+
+Notifications
+
+Roles
+
+Permissions
+
+Media manager
+
+Bulk upload
+
+Bulk edit
+
+Order timeline
+
+Refund management
+
+Export CSV
+
+Search
+
+Filters
+
+Pagination
+
+Charts
+
+Recent orders
+
+Revenue
+
+Growth
+
+Low stock alerts
+
+---
+
+# ANIMATIONS
+
+Website should feel alive.
+
+Use premium animations.
+
+Avoid over animation.
+
+Add
+
+Page transitions
+
+Scroll reveal
+
+Fade
+
+Scale
+
+Parallax
+
+Stagger animation
+
+Magnetic buttons
+
+Smooth hover
+
+Image transitions
+
+Floating elements
+
+Skeleton loaders
+
+Button ripple
+
+Loading progress
+
+Smooth route transitions
+
+Micro interactions
+
+Everything should be subtle.
+
+---
+
+# UX IMPROVEMENTS
+
+Improve every interaction.
+
+Loading experience
+
+Hover states
+
+Error states
+
+Empty states
+
+Success states
+
+Authentication flow
+
+Toast notifications
+
+Optimistic UI
+
+Keyboard accessibility
+
+Focus states
+
+Accessibility improvements
+
+Better forms
+
+Better validation
+
+Better navigation
+
+Sticky header
+
+Smooth scrolling
+
+Back to top
+
+Mobile gestures
+
+Better footer
+
+Better filters
+
+Better sorting
+
+Better pagination
+
+---
+
+# PERFORMANCE
+
+Keep code minimal.
+
+Avoid unnecessary libraries.
+
+No duplicated logic.
+
+Lazy load everything possible.
+
+Optimize images.
+
+Memoize expensive renders.
+
+Reduce bundle size.
+
+Split routes.
+
+Prefetch important routes.
+
+Optimize animations.
+
+Target Lighthouse
+
+Performance > 95
+
+Accessibility > 95
+
+Best Practices > 100
+
+SEO > 95
+
+---
+
+# SEO
+
+Improve SEO completely.
+
+Dynamic meta tags
+
+OpenGraph
+
+Twitter Cards
+
+Robots
+
+Sitemap
+
+Structured Data
+
+Canonical URLs
+
+Breadcrumb Schema
+
+Product Schema
+
+Organization Schema
+
+FAQ Schema
+
+---
+
+# ANALYTICS
+
+Integrate
+
+Google Analytics 4 (GA4)
+
+Google Search Console verification
+
+Microsoft Clarity
+
+Meta Pixel (architecture ready)
+
+Event tracking
+
+Product View
+
+Search
+
+Add to Cart
+
+Wishlist
+
+Checkout
+
+Purchase
+
+Login
+
+Signup
+
+Newsletter
+
+Button Clicks
+
+Track meaningful ecommerce events.
+
+Keep IDs configurable through environment variables.
+
+---
+
+# SECURITY
+
+Secure authentication
+
+JWT
+
+Refresh token
+
+Role protection
+
+CSRF protection
+
+Rate limiting
+
+Input sanitization
+
+Validation
+
+Proper error handling
+
+Secure cookies
+
+Prevent XSS
+
+Prevent SQL Injection
+
+---
+
+# RESPONSIVENESS
+
+Perfect on
+
+320px
+
+375px
+
+425px
+
+768px
+
+1024px
+
+1280px
+
+1440px
+
+1920px
+
+No overflow.
+
+No layout shifts.
+
+No broken UI.
+
+---
+
+# ACCESSIBILITY
+
+Keyboard navigation
+
+ARIA labels
+
+Screen reader support
+
+Proper contrast
+
+Visible focus
+
+Accessible forms
+
+Semantic HTML
+
+---
+
+# CODE QUALITY
+
+Do NOT rewrite the project.
+
+Improve existing architecture.
+
+Keep components reusable.
+
+Keep files clean.
+
+Avoid over engineering.
+
+No unnecessary abstraction.
+
+Follow SOLID principles where appropriate.
+
+Prefer composition over duplication.
+
+Every function should have a single responsibility.
+
+---
+
+# FINAL EXPECTATION
+
+The final website should feel comparable to premium ecommerce experiences from:
+
+* Nike
+* Apple
+* Zara
+* COS
+* Aime Leon Dore
+* Represent Clothing
+* Shopify Plus stores
+
+The user should experience:
+
+* Premium visual design
+* Exceptional UX
+* Smooth interactions
+* Fast performance
+* Production-grade architecture
+* Clean and maintainable code
+* Minimal but highly effective implementation
+
+Before implementing each feature, evaluate whether it genuinely improves the user experience. If a feature adds complexity without meaningful value, skip it. Prioritize quality over quantity. Fix all existing bugs (including the order flow), preserve the current architecture wherever practical, and produce concise, readable code instead of large amounts of unnecessary code.
+
