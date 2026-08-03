@@ -1,0 +1,219 @@
+You are not allowed to generate AI-looking code or AI-looking UI.
+
+Think exactly like a Senior Staff Engineer reviewing a codebase that will be maintained for the next five years.
+
+Every UI decision must have a UX reason.
+
+Every line of code must justify its existence.
+
+Never implement a feature because it looks cool.
+
+Implement it only if it improves user experience, conversion rate, accessibility, maintainability or performance.
+
+Before changing any file:
+
+• Understand the existing architecture.
+• Find reusable components.
+• Refactor instead of duplicating.
+• Remove technical debt.
+• Keep components small.
+• Keep business logic separated.
+• Avoid unnecessary abstractions.
+• Reduce code wherever possible.
+
+The final project should look handcrafted by experienced frontend engineers—not AI generated.
+
+Quality over quantity.
+
+Do not produce generic Tailwind layouts.
+
+Do not use random gradients.
+
+Do not overuse glassmorphism.
+
+Do not over animate.
+
+The website should feel premium because of typography, spacing, hierarchy, interactions and polish—not because of flashy effects.
+
+If something already works well, don't rewrite it.
+
+If there is a better architecture, migrate gradually without breaking the project.
+
+
+Also add this
+
+Don't try to finish everything in one response.
+
+Work exactly like a senior software engineer.
+
+Step 1:
+Audit the project.
+
+Step 2:
+List all problems.
+
+Step 3:
+Rank them High/Medium/Low priority.
+
+Step 4:
+Explain WHY each issue exists.
+
+Step 5:
+Propose the best solution.
+
+Wait for approval.
+
+Only then implement.
+
+After implementation:
+
+Run another audit.
+
+Find remaining UX issues.
+
+Repeat until the website reaches production quality.
+
+
+This stops Claude from blindly rewriting everything.
+Add Design Rules
+Instead of saying
+Make it modern
+Say
+
+Every page must have:
+
+Clear visual hierarchy
+
+Excellent typography
+
+Intentional whitespace
+
+Consistent spacing
+
+Meaningful animations
+
+Clear call-to-actions
+
+Natural reading flow
+
+Balanced layout
+
+Pixel-perfect alignment
+
+Proper contrast
+
+No dead space
+
+No clutter
+
+Every interaction should have visual feedback.
+
+Every hover should communicate something.
+
+Every loading state should feel intentional.
+
+Every transition should guide the user's attention.
+
+
+Tell Claude NOT to Vibe Code
+
+Never create fake enterprise architecture.
+
+Avoid:
+
+Huge Context Providers
+
+Deep prop drilling
+
+Twenty custom hooks
+
+One hook per button
+
+One component per div
+
+500-line files
+
+Duplicated Tailwind classes
+
+Repeated API calls
+
+Unused utilities
+
+Unused packages
+
+Unused states
+
+Dead code
+
+Copy-pasted components
+
+Only create abstractions when at least three places reuse them.
+
+Tech Stack Rules
+
+Keep dependencies minimal.
+
+If native React can solve it,
+don't install another package.
+
+Don't install animation libraries
+unless existing CSS cannot achieve the same result.
+
+Don't install UI libraries just for one component.
+
+Don't use component generators.
+
+Build reusable handcrafted components.
+Real Website Standards
+Tell Claude:
+
+This website should not look like an AI portfolio.
+
+It should feel like it was built by the frontend teams at:
+
+Apple
+
+Nike
+
+Represent
+
+Zara
+
+COS
+
+Aime Leon Dore
+
+Nothing should scream "Tailwind template."
+
+Avoid obvious card layouts.
+
+Avoid generic hero sections.
+
+Avoid copy-paste ecommerce sections.
+
+Design custom layouts specifically for OUTLOOX.
+Ask Claude to Think Like Different Experts
+While implementing, switch between these roles:
+
+Senior Frontend Engineer
+
+UX Designer
+
+Product Designer
+
+Motion Designer
+
+Accessibility Expert
+
+Performance Engineer
+
+SEO Engineer
+
+Backend Engineer
+
+Security Engineer
+
+QA Engineer
+
+Before finishing any feature,
+review it from every role. 
